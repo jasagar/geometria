@@ -7,6 +7,9 @@ public class Circulo_JSG extends FiguraGeometrica_JSG {
 	public Circulo_JSG(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if(radio < 0) {
+			radio = radio * (-1);
+		}
 	}
 
 	@Override
