@@ -12,9 +12,9 @@ public class Rectangulo_JSG extends FiguraGeometrica_JSG {
 	
 	/**
 	 * Constructor de la clase Rectangulo_JSG
-	 * @param tipoFigura Atributo String de la superclase
-	 * @param lG Valor double del lado mayor
-	 * @param lP Valor double del lado menor
+	 * @param tipoFigura String con el tipo de figura
+	 * @param lG double con el valor del lado mayor
+	 * @param lP double con el valor del lado menor
 	 */
 	public Rectangulo_JSG(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
@@ -23,8 +23,8 @@ public class Rectangulo_JSG extends FiguraGeometrica_JSG {
 	}
 
 	/**
-	 * Implementación del método abstracto de la superclase area()
-	 * @return l1 * l2 Double con el área del rectángulo
+	 * Implementación del método abstracto area() de la superclase FiguraGeometrica_JSG
+	 * @return double con el valor del área del rectángulo
 	 */
 	@Override
 	public double area() {
@@ -32,8 +32,8 @@ public class Rectangulo_JSG extends FiguraGeometrica_JSG {
 	}
 	
 	/**
-	 * Implementación del método abstracto de la superclase perimetro()
-	 * @return (2 * l1) + (2 * l2) Double con el perímetro del rectángulo
+	 * Implementación del método abstracto perimetro() de la superclase FiguraGeometrica_JSG
+	 * @return double con el valor del perímetro del rectángulo
 	 */
 	@Override
 	public double perimetro() {
